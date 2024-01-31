@@ -75,7 +75,7 @@ struct ErrorHandler
 	};
 	inline void onError(const char* errorMessage) const
 	{
-		std::string msg = (std::string)errorMessage);
+		std::string msg = (std::string)errorMessage;
 		this->onError(msg);
 	};
 };
